@@ -1,0 +1,93 @@
+* { 
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+:root {
+	--height-A2: 100px;
+	--width-A5: 600px;
+}
+
+.A1 {
+	width: 1000px;
+	height: 2000px;
+	border: 3px solid red;
+}
+
+.A2 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 100px;
+	border: 3px solid green;
+}
+
+.A3 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 500px;
+	height:100px;;
+	border: 3px solid purple;
+}
+
+.A4 {
+	position: relative;
+	top: 200px;
+	left: 0;
+	width: 900px;
+	height: 600px;
+	border: 3px solid yellow;
+}
+
+.A5 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 50%;
+	margin-left: 200px;
+	width: 500px;
+	height: 150px;
+	background-color: blue;
+	border: 3px solid rgb(91, 91, 107);
+}
+.A6 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	height: 50px;
+	background-color: rgb(199, 166, 59);
+	border: 3px solid #ccc;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 780px) {
+	.A1 {
+		width: 500px;
+	}
+	.A2, .A3, .A5 {
+		width: 250px;
+	}
+	.A4 {
+		width: 450px;
+	}
+	.A5 {
+		margin-left: 100px;
+	}
+	
+}

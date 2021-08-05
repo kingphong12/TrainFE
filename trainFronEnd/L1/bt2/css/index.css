@@ -1,0 +1,73 @@
+body, html {
+    box-sizing: border-box;
+}
+
+.form {
+    margin-bottom: 3rem;
+}
+
+.form__item {
+    margin: 1rem;
+}
+
+.form__item input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0.5rem;
+    text-indent: 4px;
+}
+
+.label {
+    margin: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner__item {
+    display: block;
+    width: 100px;
+    border: 1px solid #fff;
+    height: 50px;
+}
+
+.inner__item:nth-child(2n+1) {
+    background-color: blue;
+}
+
+.inner__item:nth-child(2n) {
+    background-color:red;
+}
+
+@media only screen and (max-width: 320px) {
+    .inner__item:nth-child(2n+1) {
+        background-color: red;
+        width: 20px;
+    }
+    
+    .inner__item:nth-child(2n) {
+        background-color:blue;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .inner__item:nth-child(2n+1) {
+        background-color: red;
+        width: 20px;
+    }
+    
+    .inner__item:nth-child(2n) {
+        background-color:blue;
+        width: 30px;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/index.css">
+    <title>bt10</title>
+
+</head>
+
+<body>
+	<div class="container"></div>
+    <div class="wrapper__btn">
+			<button class="btn-form" id="btn__modal">
+        Đăng nhập hệ thống
+    	</button>
+		</div>
+
+		<div class="modal__login">
+			<div class="form">
+				<form class="form__login" name="formLogin">
+					<div class="header">
+						<p>Member Login</p>
+					</div>
+
+					<div class="form__item">
+							<div class="form__group">
+								<div class="form__icon">
+									<i class="fas fa-user"></i>
+								</div>
+								<input class="username" type="text" placeholder="Username"  />
+							</div>
+							<span class="error__message"></span>
+					</div>
+
+					<div class="form__item">
+						<div class="form__group">
+							<div class="form__icon">
+									<i class="fad fa-lock"></i>
+							</div>
+							<input class="password" type="password" placeholder="Password" />
+						</div>
+						<span class="error__message"></span>
+					</div>
+					
+					<div class="wrapper__btn">
+						<button class="btn-form" type="submit" >Login</button>
+					</div>
+
+					<div class="wrapper__btn">
+						<p class="forgot__form">Forgot Password</p>
+					</div>
+				</form>
+				
+				<form class="form__register">
+					<div class="header">
+						<p>Forgot Password</p>
+					</div>
+
+					<div class="form__item">
+						<div class="form-group form__group ">
+							<input type="password" class="form-control old-pas" id="exampleInputPassword1" placeholder="Old Password">
+						</div>
+						<span class="error__message"></span>
+					</div>
+					
+					<div class="form__item">
+						<div class="form-group form__group">
+							<input type="password" class="form-control new-pas" id="exampleInputPassword2" placeholder="New Password">
+						</div>
+						<span class="error__message"></span>
+					</div>
+					
+					<button type="submit" class="btn btn-primary">Save</button>
+				</form>
+				
+			</div>
+		</div>
+  </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

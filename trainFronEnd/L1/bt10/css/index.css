@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper__btn {
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.modal__login {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(75, 72, 72, 0.9);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+}
+
+
+.form__login, 
+.form__register {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.form__login {
+    display: block;
+}
+
+.form__register {
+    display: none;
+}
+
+.header {
+    padding: 0.5rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.header p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.form__item {
+    margin-bottom: 1rem
+}
+
+.form__group {
+    margin-bottom: 0.3rem  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form__icon {
+    padding: 0.5rem;
+}
+
+.form__group input {
+    border: none;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    width: 17rem;
+    border-left: none;
+
+}
+
+.form__group input:focus {
+    display: block;
+    outline: none;
+}
+
+.error__message {
+    color: red;
+    font-size: 1rem;
+}
+.btn-form {    
+    text-align: center;
+    padding: 0.5rem;
+    min-width: 20rem;
+    background-color:blue;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.btn-form:hover {
+    background-color:rgb(81, 81, 248);
+    cursor: pointer;
+}
+
+.forgot__form {
+    color: rgb(109, 109, 243);
+}
+
+.forgot__form:hover {
+    color: rgb(140, 140, 252);
+    cursor: pointer;
+}
+/* register */
+
